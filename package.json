@@ -2,12 +2,10 @@
   "name": "cryptokosice-web",
   "version": "2.0.0",
   "private": true,
-  "homepage": "./",
   "scripts": {
-    "start": "hugo serve",
+    "start": "budo --dir . --live",
     "pin": "node ./scripts/pin.js",
-    "build": "hugo -d build/ --gc --minify",
-    "deploy": "npm run build && npx ipfs-deploy build/ -p pinata -d cloudflare -O"
+    "deploy": "ipfs-deploy public/ -p pinata -d cloudflare -O"
   },
   "devDependencies": {
     "@pinata/sdk": "^1.1.6"

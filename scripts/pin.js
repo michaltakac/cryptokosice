@@ -1,7 +1,7 @@
 const { join } = require("path");
 const { pinata } = require("./pinata");
 
-const sourcePath = join(__dirname, "../build");
+const sourcePath = join(__dirname, "../public");
 
 const options = {
   pinataMetadata: {

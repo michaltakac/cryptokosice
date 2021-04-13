@@ -1,0 +1,171 @@
+body {
+  background-color: #333333;
+  font-size: 1.4rem;
+}
+
+p {
+  font-family: 'Ubuntu';
+  color: #cccccc;
+}
+
+a {
+  color: #cccccc;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+main {
+  background-color: #333333;
+}
+
+.container {
+  max-width: 768px;
+}
+
+.heading {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  color: #cccccc;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+.landing-title {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-top: 45vh;
+}
+
+.landing-title p {
+  margin: 0;
+}
+
+.label-top {
+  margin-top: 5%;
+}
+
+.section-landing {
+  height: 100vh;
+}
+
+.section-about {
+  height: 100vh;
+}
+
+.bg-image {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/atm_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+.about-text {
+  margin-top: 20%;
+  margin-bottom: 20%;
+  text-align: justify;
+  z-index: 1;
+}
+
+.section-logos {
+  margin-top: 10%;
+  text-align: justify;
+  z-index: 1;
+}
+
+.section-partners {
+  margin-top: 20%;
+  margin-bottom: 20%;
+  z-index: 1;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+footer {
+  background-color: #292728;
+  z-index: 1;
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
+
+footer .heading {
+  font-size: 2.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+footer .mail {
+  font-size: 1.9rem;
+  margin-bottom: 0rem;
+}
+
+footer .phone {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 750px) {
+  body {
+    font-size: 1.56rem;
+  }
+
+  .heading {
+    font-size: 3.7rem;
+    margin-bottom: 6rem;
+  }
+
+  .landing-title {
+    font-size: 8rem;
+    margin-top: 38vh;
+  }
+
+  .label-top {
+    margin-top: 5%;
+  }
+
+  .about-text {
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
+  .section-logos {
+    margin-top: 10%;
+  }
+
+  .section-partners {
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
+  footer {
+    margin: 0;
+    padding: 20px 0 20px 0;
+  }
+
+  footer .heading {
+    font-size: 2.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  footer .mail {
+    font-size: 1.9rem;
+    margin-bottom: 0rem;
+  }
+
+  footer .phone {
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+  }
+}
